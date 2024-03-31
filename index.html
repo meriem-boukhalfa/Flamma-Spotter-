@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /* Form styles */
+        form {
+            margin-top: 20px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            max-width: 300px; /* Réduire la largeur maximale des champs */
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FLAMMA SPOTER</h1>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Sign in</h2>
+            <form id="contactForm" method="post" action="h.html">
+                <label for="company-name">Company Name:</label><br>
+                <input type="text" id="company-name" name="company-name" required><br>
+                <label for="user-id">User ID:</label><br>
+                <input type="text" id="user-id" name="user-id" required><br>
+                <label for="company-email">Company Email:</label><br>
+                <input type="email" id="company-email" name="company-email" required><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FLAMMA SPOTER , Boukhalfa Meriem</p>
+    </footer>
+</body>
+</html>
