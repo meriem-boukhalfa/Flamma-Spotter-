@@ -118,3 +118,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #555;
 }
+footer {
+    font-family: Herculanum, sans-serif;
+}
