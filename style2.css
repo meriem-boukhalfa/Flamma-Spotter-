@@ -72,8 +72,6 @@ header h1 {
 header h1 {
     font-family: Herculanum, sans-serif; /* Utiliser Herculanum s'il est disponible, sinon utiliser une police sans empattement générique */
 }
-
-
-
-
-
+footer {
+    font-family: Herculanum, sans-serif;
+}
